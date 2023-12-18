@@ -8,6 +8,10 @@ public class Hero {
 		this.id = id;
 		this.name = name;
 	}
+	
+	public boolean isInstance() {
+		return this instanceof Hero;
+	}
 
 	// 適切な文字列表現を返すtoStringメソッドとしてオーバーライド
 	public String toString() {
